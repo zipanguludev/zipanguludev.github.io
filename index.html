@@ -237,6 +237,11 @@
     padding: 4px 10px; border-radius: 999px;
     background: rgba(255, 255, 255, .06); border: 1px solid var(--border); color: var(--text-2);
   }
+  .guides { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 10px; font-size: 13.5px; }
+  .guides span { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--text-3); }
+  .guides ul { display: flex; flex-wrap: wrap; gap: 6px 14px; list-style: none; }
+  .guides a { color: var(--accent); font-weight: 500; }
+  .guides a:hover { text-decoration: underline; text-underline-offset: 3px; }
   .card-actions { display: flex; flex-direction: column; gap: 14px; padding-top: 6px; border-top: 1px solid var(--border); }
   .site-link { font-weight: 600; font-size: 15px; color: var(--accent); display: inline-flex; align-items: center; gap: 6px; }
   .site-link:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -324,6 +329,16 @@
             </div>
           </div>
           <p>A tally counter with superpowers: webhooks, NFC tags, Tasker and Home Assistant integration, goals, streaks and statistics. Track habits, finances or anything else, then let automations do the rest.</p>
+          <nav class="guides" aria-label="Counter guides">
+            <span>Guides</span>
+            <ul>
+              <li><a href="https://counterautomate.com/home-assistant-counter.html">Home Assistant counter</a></li>
+              <li><a href="https://counterautomate.com/tasker-counter.html">Tasker &amp; Automate</a></li>
+              <li><a href="https://counterautomate.com/nfc-counter.html">NFC habit tracking</a></li>
+              <li><a href="https://counterautomate.com/telegram-counter.html">Telegram messages</a></li>
+              <li><a href="https://counterautomate.com/faq.html">FAQ</a></li>
+            </ul>
+          </nav>
           <div class="platforms"><span class="chip">Android</span><span class="chip">Free</span></div>
           <div class="card-actions">
             <a class="site-link" href="https://counterautomate.com/">Visit counterautomate.com →</a>
