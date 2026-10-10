@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zipangulu — Mobile apps for Android and iOS</title>
-<meta name="description" content="Apps by Zipangulu: Counter, Operandi, WitsAgora and CartNap. Free mobile apps for Android and iOS — habit counting and automation, math puzzles, debate party games and mindful shopping.">
+<meta name="description" content="Apps by Zipangulu: Counter, Operandi, WitsAgora, CartNap and Riviera Rush. Free mobile apps for Android and iOS — habit counting and automation, math puzzles, debate party games, mindful shopping and an arcade beach club game.">
 <meta name="author" content="Zipangulu">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://zipanguludev.github.io/">
@@ -17,7 +17,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Zipangulu">
 <meta property="og:title" content="Zipangulu — Mobile apps for Android and iOS">
-<meta property="og:description" content="Counter, Operandi, WitsAgora and CartNap. Free mobile apps, made with care.">
+<meta property="og:description" content="Counter, Operandi, WitsAgora, CartNap and Riviera Rush. Free mobile apps, made with care.">
 <meta property="og:url" content="https://zipanguludev.github.io/">
 <meta property="og:image" content="https://zipanguludev.github.io/assets/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -25,7 +25,7 @@
 <meta property="og:image:alt" content="Zipangulu — Counter, Operandi, WitsAgora and CartNap app icons">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Zipangulu — Mobile apps for Android and iOS">
-<meta name="twitter:description" content="Counter, Operandi, WitsAgora and CartNap. Free mobile apps, made with care.">
+<meta name="twitter:description" content="Counter, Operandi, WitsAgora, CartNap and Riviera Rush. Free mobile apps, made with care.">
 <meta name="twitter:image" content="https://zipanguludev.github.io/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +67,7 @@
       "@type": "ItemList",
       "name": "Apps by Zipangulu",
       "itemListOrder": "https://schema.org/ItemListUnordered",
-      "numberOfItems": 4,
+      "numberOfItems": 5,
       "itemListElement": [
         {
           "@type": "ListItem", "position": 1,
@@ -125,6 +125,21 @@
             "applicationCategory": "LifestyleApplication",
             "operatingSystem": "Android",
             "installUrl": "https://play.google.com/store/apps/details?id=com.zipangulu.cartnap",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "author": { "@id": "https://zipanguludev.github.io/#organization" }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 5,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Riviera Rush",
+            "url": "https://zipanguludev.github.io/rivierarush-landing/",
+            "image": "https://zipanguludev.github.io/assets/rivierarush.png",
+            "description": "Arcade idle game about running Italian beach clubs: serve sunbeds, umbrellas and granitas and grow a chain of lidos.",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Android",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.zipangulu.lidorush",
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
             "author": { "@id": "https://zipanguludev.github.io/#organization" }
           }
@@ -254,6 +269,7 @@
   .operandi  { --accent: #ffc24a; --accent-soft: rgba(255, 194, 74, .16); }
   .witsagora { --accent: #f97316; --accent-soft: rgba(249, 115, 22, .18); }
   .cartnap   { --accent: #8fbf96; --accent-soft: rgba(107, 143, 113, .22); }
+  .rivierarush { --accent: #2fb4d8; --accent-soft: rgba(47, 180, 216, .18); }
 
   /* About */
   .about { padding: 64px 0 80px; border-top: 1px solid var(--border); background: var(--bg-2); }
@@ -307,7 +323,7 @@
     <div class="wrap">
       <span class="eyebrow">Independent mobile apps</span>
       <h1>Small apps, built with care.</h1>
-      <p>Counters that automate your life, a cozy number puzzle, a debate party game and a shopping cart that sleeps on it. Free on Android and iOS.</p>
+      <p>Counters that automate your life, a cozy number puzzle, a debate party game, a shopping cart that sleeps on it and a beach club to run on the Italian coast. Free on Android and iOS.</p>
       <div class="cta">
         <a class="btn primary" href="#apps">Explore the apps</a>
         <a class="btn" href="#contact">Get in touch</a>
@@ -404,6 +420,24 @@
           </div>
         </article>
 
+        <article class="card rivierarush">
+          <div class="card-head">
+            <div class="icon"><img src="assets/rivierarush.png" alt="Riviera Rush app icon" width="64" height="64" loading="lazy"></div>
+            <div>
+              <h3>Riviera Rush</h3>
+              <div class="kicker">Beach club arcade game</div>
+            </div>
+          </div>
+          <p>Run a beach club on the Italian coast: carry sunbeds, open umbrellas, serve granitas and survive the midday Rush. Grow your lido into a chain of beach clubs from Rimini to Tropea.</p>
+          <div class="platforms"><span class="chip">Android</span><span class="chip">iOS coming soon</span><span class="chip">Free</span></div>
+          <div class="card-actions">
+            <a class="site-link" href="https://zipanguludev.github.io/rivierarush-landing/">Visit the Riviera Rush site →</a>
+            <div class="stores">
+              <a href="https://play.google.com/store/apps/details?id=com.zipangulu.lidorush" rel="noopener" aria-label="Get Riviera Rush on Google Play"><img src="assets/google-play-badge.svg" alt="Get it on Google Play" width="135" height="40" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
@@ -436,6 +470,7 @@
         <li><a href="https://zipanguludev.github.io/numberpuzzle-landing/privacy-policy.html">Operandi</a></li>
         <li><a href="https://witsagora.com/privacy.html">WitsAgora</a></li>
         <li><a href="https://cartnap.com/privacy/">CartNap</a></li>
+        <li><a href="https://zipanguludev.github.io/rivierarush-landing/privacy-policy.html">Riviera Rush</a></li>
       </ul>
     </div>
     <div>
@@ -445,6 +480,7 @@
         <li><a href="https://zipanguludev.github.io/numberpuzzle-landing/">Operandi</a></li>
         <li><a href="https://witsagora.com/">witsagora.com</a></li>
         <li><a href="https://cartnap.com/">cartnap.com</a></li>
+        <li><a href="https://zipanguludev.github.io/rivierarush-landing/">Riviera Rush</a></li>
       </ul>
     </div>
     <p class="copy">© 2026 Zipangulu. Google Play and the Google Play logo are trademarks of Google LLC. App Store is a trademark of Apple Inc.</p>

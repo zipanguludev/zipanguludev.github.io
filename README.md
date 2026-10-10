@@ -10,7 +10,7 @@ Each app has its own landing site in a separate repository; this page only links
 | Operandi | [numberpuzzle-landing](https://github.com/zipanguludev/numberpuzzle-landing) | https://zipanguludev.github.io/numberpuzzle-landing/ |
 | WitsAgora | [witsagora-landing](https://github.com/zipanguludev/witsagora-landing) | https://witsagora.com/ |
 | CartNap | [cartnap-landing](https://github.com/zipanguludev/cartnap-landing) | https://cartnap.com/ |
-| Riviera Rush | [rivierarush-landing](https://github.com/zipanguludev/rivierarush-landing) | https://zipanguludev.github.io/rivierarush-landing/ (not on the showcase yet) |
+| Riviera Rush | [rivierarush-landing](https://github.com/zipanguludev/rivierarush-landing) | https://zipanguludev.github.io/rivierarush-landing/ |
 
 Plain static HTML, no build step: edit `index.html` and push to `main`.
 
