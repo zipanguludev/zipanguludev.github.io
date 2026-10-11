@@ -7,7 +7,8 @@
   Apps with their own domain (counterautomate.com, witsagora.com, cartnap.com)
   keep their own sitemap on that domain.
 -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://zipanguludev.github.io/</loc><lastmod>2026-10-10</lastmod></url>
 
   <!-- Operandi (repo numberpuzzle-landing) -->
@@ -16,7 +17,18 @@
   <url><loc>https://zipanguludev.github.io/numberpuzzle-landing/terms.html</loc><lastmod>2026-07-12</lastmod></url>
 
   <!-- Riviera Rush (repo rivierarush-landing) -->
-  <url><loc>https://zipanguludev.github.io/rivierarush-landing/</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://zipanguludev.github.io/rivierarush-landing/privacy-policy.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://zipanguludev.github.io/rivierarush-landing/privacy-policy.it.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url>
+    <loc>https://zipanguludev.github.io/rivierarush-landing/</loc><lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zipanguludev.github.io/rivierarush-landing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zipanguludev.github.io/rivierarush-landing/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zipanguludev.github.io/rivierarush-landing/"/>
+  </url>
+  <url>
+    <loc>https://zipanguludev.github.io/rivierarush-landing/it/</loc><lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zipanguludev.github.io/rivierarush-landing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zipanguludev.github.io/rivierarush-landing/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zipanguludev.github.io/rivierarush-landing/"/>
+  </url>
+  <url><loc>https://zipanguludev.github.io/rivierarush-landing/privacy-policy.html</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://zipanguludev.github.io/rivierarush-landing/privacy-policy.it.html</loc><lastmod>2026-10-11</lastmod></url>
 </urlset>
